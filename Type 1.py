@@ -6,7 +6,7 @@ Format:
 
 import random as rn
 
-ln=int(input("Enter lowexier bound for n: "))
+ln=int(input("Enter lower bound for n: "))
 un=int(input("Enter upper bound for n: "))
 lm=int(input("Enter lower bound for m: "))
 um=int(input("Enter upper bound for m: "))

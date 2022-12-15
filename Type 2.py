@@ -19,12 +19,10 @@ la=int(input("Enter lower bound for ai: "))
 ua=int(input("Enter upper bound for ai: "))
 
 t=rn.randrange(lt,ut+1)
-
-n=rn.randrange(ln,un+1)
-
-a=rn.sample(range(la,ua+1),n)
 print(t)
 
 for _ in range(t):
+    n=rn.randrange(ln,un+1)
+    a=rn.sample(range(la,ua+1),n)
     print(n)
     print(*a)

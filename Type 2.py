@@ -23,8 +23,8 @@ t=rn.randrange(lt,ut+1)
 n=rn.randrange(ln,un+1)
 
 a=rn.sample(range(la,ua+1),n)
+print(t)
 
 for _ in range(t):
     print(n)
-
     print(*a)
